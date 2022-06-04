@@ -13,8 +13,8 @@
   </head>
 
   <body>
-    <header>
-      <h1 class="headline">All Lists</h1>
+     <header>
+      <h1 class="headline"> All Lists </h1>
     </header>
     <nav>
       <ul class="nav-list">
@@ -24,12 +24,11 @@
         <li class="nav-list-item">
           <%= link_to "Lists", lists_path %>
         </li>
-        <li class="bav-list-item">
+        <li class="nav-list-item">
           <%= link_to "New List", new_list_path %>
         </li>
       </ul>
     </nav>
-    
     <main>
       <%= yield %>
     </main>
